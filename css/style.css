@@ -847,7 +847,7 @@ body {
   /*=======Media query max-width 730px=======*/
   @media screen and (max-width: 730px) {
 
-    body{
+    /* body{
       margin: 5rem 0 0 0;
     }
       
@@ -863,6 +863,6 @@ body {
     .home-img img{
       min-width: 200px;
       width: 100%;
-    }
+    } */
    
   }
