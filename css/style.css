@@ -206,8 +206,9 @@ body {
   }
 
   .home-container .home-img img {
-    width: 500px;;
-    height: 550px;
+    max-width: 500px;
+    min-width: 100px;
+    height: auto;
     transform: translate(0, 0);
   }
 
@@ -775,8 +776,11 @@ body {
   .home .home-container .info{
       font-size: 0.85rem;
   }
-
-
+  
+  .home-img img{
+    width: 100%;
+  }
+    
   .about .container .content{
     display: grid;
     width: 100%;
@@ -784,7 +788,7 @@ body {
   }
 
   .about-img img{
-    min-width: 0;
+    /* min-width: 0; */
     width: 100%;
   }
     
