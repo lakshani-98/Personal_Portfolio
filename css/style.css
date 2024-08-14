@@ -198,9 +198,9 @@ body {
     border-radius: 10px;
   }
 
-  .home-container .home-img {
+  /* .home-container .home-img {
     position: relative;
-  }
+  } */
 
   .home-container .home-img img {
     width: 500px;;
