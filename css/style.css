@@ -244,7 +244,7 @@ body {
   .section {
     position: relative;
     /* width: 1150px; */
-    max-width: 1150px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 6rem 2rem 2rem;
@@ -253,7 +253,7 @@ body {
   .sub-section {
     position: relative;
     /* width: 1150px; */
-    max-width: 1150px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 6rem 0;
