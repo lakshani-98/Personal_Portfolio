@@ -135,36 +135,20 @@ body {
 
   /*=======Home section=======*/
   .home .home-container {
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Center content vertically */
-    width: 100%; /* Ensure container takes up full width */
-    text-align: center; /* Center text */
-    padding: 4rem 1rem; /* Reduce padding for smaller screens */
-    box-sizing: border-box; /* Ensure padding is included in width */
+    width: 100%;
   }
 
   .home {
-    /* position: relative;
+    position: relative;
     max-width: 100%;
     min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding: 4rem 2rem;
-    flex-direction: column; */
-    max-width: 100%; /* Ensure the section takes full width */
-    padding: 2rem 1rem; /* Adjust padding for mobile */
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 100vh; /* Make sure it covers the full height */
-    display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
   }
 
   .home-container .media-icons {
@@ -222,12 +206,9 @@ body {
     /* width: 500px;;
     height: 550px;
     transform: translate(0, 0); */
-    /* width: 100%;
-    height: auto;
-    max-width: 500px; */
     width: 100%;
     height: auto;
-    max-width: 300px; /* Control max width on mobile */
+    max-width: 500px;
   }
 
   .home .scroll-down {
@@ -727,10 +708,10 @@ body {
   }
 
   /*=======Media query max-width 730px=======*/
-  @media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 730px) {
 
-    /* .home-container {
-      flex-direction: column; 
+    .home-container {
+      flex-direction: column; /* Stack elements on smaller screens */
       align-items: center;
     }
 
@@ -738,16 +719,6 @@ body {
       width: 80%; 
       max-width: 300px; 
       height: auto; 
-  } */
-
-  .home-container {
-    flex-direction: row;
-    justify-content: space-between; /* Reapply original flex settings for larger screens */
-    text-align: left;
-}
-
-.home-container .home-img img {
-    max-width: 500px; /* Larger image for bigger screens */
-}
+  }
    
   }
