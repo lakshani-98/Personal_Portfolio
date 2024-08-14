@@ -198,14 +198,17 @@ body {
     border-radius: 10px;
   }
 
-  /* .home-container .home-img {
+  .home-container .home-img {
     position: relative;
-  } */
+  }
 
   .home-container .home-img img {
-    width: 500px;;
+    /* width: 500px;;
     height: 550px;
-    transform: translate(0, 0);
+    transform: translate(0, 0); */
+    width: 100%;
+    height: auto;
+    max-width: 500px;
   }
 
   .home .scroll-down {
@@ -704,5 +707,16 @@ body {
 
   /*=======Media query max-width 730px=======*/
   @media screen and (max-width: 730px) {
+
+    .home-container {
+      flex-direction: column; /* Stack elements on smaller screens */
+      align-items: center;
+    }
+
+    .home-container .home-img img {
+      width: 80%; 
+      max-width: 300px; 
+      height: auto; 
+  }
    
   }
